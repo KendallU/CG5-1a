@@ -32,8 +32,8 @@ namespace CG_5_1
             string result = Console.ReadLine();
             if (result == "1")
             {
-                FullName1(firstName, lastName);
-                Console.WriteLine("Hello, " + firstName + lastName);
+                
+                Console.WriteLine("Hello, " + FullName1(firstName, lastName));
                 Console.ReadLine();
                 return true;
 
@@ -43,8 +43,8 @@ namespace CG_5_1
             }
             else if (result == "2")
             {
-                FullName2(lastName, firstName);
-                Console.WriteLine("Hello," + lastName + firstName);
+               
+                Console.WriteLine("Hello," + FullName2(lastName, firstName));
 
                 Console.ReadLine();
                 return true;
